@@ -1,8 +1,8 @@
 {
-    "compilerOptions": {
-      "target": "es6",
-      "module": "ESNext",
-      "moduleResolution": "node",
-      "esModuleInterop": true,
-    },
+  "compilerOptions": {
+    "target": "es6",
+    "module": "none",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
   }
+}
