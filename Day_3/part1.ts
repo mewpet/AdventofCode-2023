@@ -1,5 +1,7 @@
 import * as fs from 'fs/promises'
 
+const start = Date.now()
+
 let lineArr: Array<string> = []
 let characterArr: Array<Array<string>> = []
 
@@ -59,6 +61,8 @@ function solve() {
     let sum = 0
     calculatedNumbers.map(num => sum += Number(num.number))
     console.log(sum)
+    const end = Date.now()
+    console.log(`Execution time:  ${end - start} ms`)
 }
 
 let numberMatch = /\d+/g
