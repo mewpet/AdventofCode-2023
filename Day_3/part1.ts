@@ -4,7 +4,7 @@ let lineArr: Array<string> = []
 let characterArr: Array<Array<string>> = []
 
 async function init() {
-    const fileContent = await fs.readFile('./Day\ 3/input.txt', 'utf-8');
+    const fileContent = await fs.readFile('./Day_3/input.txt', 'utf-8');
 
     const lines: string[] = fileContent.split('\r\n');
 
